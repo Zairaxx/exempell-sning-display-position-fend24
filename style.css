@@ -1,9 +1,10 @@
 .large {
   display:flex;
   min-height:500px;
-  width:100% ;
+  width:500px;
   background:black;
   margin-bottom:10px;
+
 }
 
 .large.one {
@@ -16,26 +17,12 @@
 }
 
 .large.one div:nth-of-type(1){
-  flex-grow:3;
+  /* flex-grow:3; */
 }
 
 .large.one div:nth-of-type(2){
   flex-grow:1;
 }
-/* 
-.large.one div:nth-last-of-type(3){
-  flex-grow:1;
-} */
-
-
-
-
-
-
-
-
-
-
 
 .large.two {
   flex-direction:column;
@@ -44,7 +31,11 @@
   box-sizing: border-box;
 }
 
-/* .large.two div:nth-of-type(2) {
+
+/* Du kan använda align-self på children av en parent för att låta dem bestämma alignment själva*/
+
+/*
+.large.two div:nth-of-type(2) {
 
   align-self:center;
 }
@@ -53,8 +44,10 @@
   align-self:flex-end;
 } */
 
+
+/* Valfri border för att visuellt se våra "osynliga divar" vi använder för att justera innehåll*/
 .large.two > div {
-  /* border:5px solid lightcoral; */
+  border:5px solid lightcoral;
 } 
 
 .large.two > div:nth-of-type(1) {
