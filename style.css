@@ -1,3 +1,4 @@
+/*Grundläggande styling för alla stora och små divar */ 
 .large {
   display:flex;
   min-height:500px;
@@ -7,6 +8,15 @@
 
 }
 
+.small {
+  width:100px;
+  height:100px;
+  background:red;
+  margin:5px;
+}
+
+
+/* Styling för Svarta ruta #1 */
 .large.one {
   /* Bestäm huvudaxeln */
   flex-direction:row;
@@ -34,22 +44,24 @@
 
 /* Du kan använda align-self på children av en parent för att låta dem bestämma alignment själva*/
 
-/*
-.large.two div:nth-of-type(2) {
 
-  align-self:center;
+.large.one div:nth-of-type(1) {
+
+  align-self:flex-start;
 }
 
-.large.two div:nth-of-type(3) {
-  align-self:flex-end;
-} */
+.large.one div:nth-of-type(3) {
+  align-self:flex-start;
+}
 
 
 /* Valfri border för att visuellt se våra "osynliga divar" vi använder för att justera innehåll*/
-.large.two > div {
+/* .large.two > div {
   border:5px solid lightcoral;
-} 
+}  */
 
+
+/* Styling för alla röda divar inuti den Svart ruta #2 */
 .large.two > div:nth-of-type(1) {
   display:flex;
   justify-content: space-between;
@@ -63,11 +75,4 @@
 .large.two > div:nth-of-type(3) {
   display:flex;
   justify-content: space-between;
-}
-
-.small {
-  width:100px;
-  height:100px;
-  background:red;
-  margin:5px;
 }
