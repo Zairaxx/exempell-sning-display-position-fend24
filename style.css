@@ -1,0 +1,226 @@
+/* Add Question 1 CSS below: */
+.color-word {
+    color:red;
+}
+  
+  /* Add Question 2 CSS below: */
+  
+  .a {
+    color:red;
+  }
+
+  .b {
+    color:orange;
+  }
+
+  .c {
+    color:yellow;
+  }
+
+  .d {
+    color:green;
+  }
+
+  .e {
+    color:blue;
+  }
+
+  /* Question 3/4 */
+  .highlight-me {
+    color: black;
+    font-size: 16px;
+    background:yellow;
+  }
+  
+  /* Question 5 */
+  .side-by-side {
+    display:inline-block;
+    width: 120px;
+    height: 70px;
+    background-color: black;
+    margin: 0;
+  }
+  
+  /* Question 6 */
+  .gone {
+    display:none;
+    background-color: lightgrey;
+    color: grey;
+    font-size: 30px;
+    width: 100px;
+  }
+  
+  /* Question 7 */
+  .increase-orange {
+    background-color: orange;
+    display: inline-block;
+    padding:8px;
+  }
+  
+  /* Question 8 */
+  .separate-me {
+    background-color: green;
+    width: 200px;
+    height: 20px;
+    margin-bottom:5px;
+  }
+  
+  /* Question 9 */
+  .user-friendly {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 4px 8px;
+    border-radius:4px;
+    margin:0 8px;
+  }
+  .user-friendly:hover {
+    background-color:grey;
+  }
+  
+  /* Question 10 */
+  .static {
+    background-color: #00ffff;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+  }
+  .center-me {
+    display: inline-block;
+    line-height:100px;
+  }
+  
+  /* Question 11 */
+  .left-upward {
+    width: 200px;
+    height: 60px;
+    background-color: green;
+    position:relative;
+    /* right:50px; */
+    left:-50px;
+    top:-50px;
+    /* bottom:50px; */
+    z-index:-1;
+
+  }
+  
+  /* Question 12 */
+  .fixed-btn {
+    position:fixed;
+    top:10px;
+    right:10px;
+    background-color: pink;
+    width: 130px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Question 13 */
+  .position-20-40 {
+    background-color: #bb00ff;
+    width: 200px;
+    height: 100px;
+    top:20px;
+    left:40px;
+    /* position: relative; */
+  }
+  
+  /* Question 14 */
+  .dont-move {
+    width: 200px;
+    height: 50px;
+    background-color: grey;
+    display:inline-block;
+  }
+  .move-me {
+    position:relative;
+    right:30px;
+    bottom:30px;
+    width: 220px;
+    height: 60px;
+    background-color: blue;
+  }
+  
+  /* Question 15 */
+  
+  /* Question 16 */
+  .larger-div {
+    background-color: red;
+    width: 260px;
+    height: 260px;
+  }
+  .smaller-div {
+    position:relative;
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    top:-230px;
+    left:30px;
+  }
+  
+  /* Question 17 */
+  .parent-div {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    background-color: lightgrey;
+  }
+  .child-div {
+    background-color: #4287f5;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 125px;
+    right: 125px;
+  }
+  
+  /* Question 20 */
+  .replicate-me {
+    background-color: lightgrey;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+  .replicate-me div {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+  }
+  .red-square {
+    background-color: #f0002c;
+  }
+  .pink-square {
+    background-color: #e0abd8;
+  }
+  .yellow-square {
+    background-color: #f0c800;
+  }
+  .green-square {
+    background-color: #32a852;
+  }
+  .blue-square {
+    background-color: #0486d6;
+  }
+  
+  /* Default Styles */
+  
+  p {
+    color: grey;
+    font-size: 14px;
+    max-width: 460px;
+  }
+  
+  body {
+    padding-bottom: 200px;
+  }
+  
+  .img-ref {
+    width: 400px;
+  }
+  
+  h3 {
+    text-decoration: underline;
+  }
+  
